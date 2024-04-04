@@ -1,0 +1,142 @@
+Web Application
+---------------
+-> A web Application is a software program that can be accessed through the web browser over the internet.
+-> Web Application is also termed as WEB APP.
+
+There are different types of web Applications.
+
+1. Static Web Applications : Ex: Blogs, Company Websites
+2. Dynamic Web Applications : Ex: latest articles, weather forecast applications
+3. Single Page Applications : Ex: Gmail,Facebook
+4. Progressive Web Applications : Ex: Twitterlite, starbucks
+5. E-Commerce Applications : Ex:  Amazon,Flipkart,Nykaa
+6. Colloboration tools : Ex: slack,teams,google workspace
+
+Editors
+-------
+-> The main purpose of editor is to write code for web pages.
+
+Ex: Notepad, Notepad++, VS code ..
+
+HTML
+====
+
+HTML stands for Hyper Text MarkUp Language.
+
+-> Use dto create Web Application.
+-> HTML files can be created using .html extension.
+
+Eg: index.html
+
+-> HTML is all about tags.
+-> HTML page can be divided into 3 sections
+   1. Head
+   2. Body
+   3.Footer
+
+1. Head : 
+---------
+-> Head section contains all meta tags ,title, links to style sheets or favicon etc.
+-> All data can be placed inside <head> section.
+
+<html>  -- is a root element.
+
+<!DOCTYPE html>  -- Specifies that which version html is being used for web page structure.
+                    -> if <!DOCTYPE> is not mentioned , browser takes the latest version only by default.
+
+Tags
+=====
+-> In Markup Languages, tags refered to a specific syntax use to define elements with in documnet.
+-> Tags are used to structure and format content.
+
+Tags can be described as 
+<start tag> content </end tag>
+-> tag name can be placed between angular brackets(< >).
+
+Ex : <div>I am text inside div tag.</div>
+
+
+<title>
+--------
+        -> Title tag is used to title the web page.
+
+Ex:
+----
+<title>Page Title</title>
+
+
+<link>
+-------
+        -> link tag is used to link external resources.
+        -> Can be used in <head> section.
+        -> <link /> is a self closing tag.
+
+        -> link tag has attributes rel,href,type.
+            -> rel -- relationship between the current document and linked resource.
+            -> href -- hypertext reference i.e specifies he URL of linked resource.
+            -> type --  specifies the file type
+
+            Ex: <link rel = "icon" href = "favicon.ico" type = "image/x-icon" />
+
+
+SEO -- Search Engine Optimisation
+       -> improves website visibility 
+       -> for optimisation, <meta> tags will be used.
+
+
+2. Body 
+==========
+
+-> <body> tag contains the visible content of the document such text,images,links,forms and othjer elements.
+
+
+Elements
+==========
+
+-> Elements refers to the individual components that make up the structure of web page.
+-> Elements are defined by tags.
+
+HTML Elements can be categorised into different types.
+1. Structural Elements  
+----------------------
+    -> Used to define the define structure & layout of webpage.
+
+    <html>,<head>,<title>,<body>,<header>,<section>,<nav>,<aside>,<main>,<article>,<div>,<span>.
+
+2. Text Content Elements 
+-------------------------
+    -> Used to represent texual content inside the document.
+
+    <p>,<h1>,<h2>,<h3>,,<h4>,<h5>,<h6>,<strong>,<em>,<abbr>
+
+3. Semantic Elements 
+----------------------
+    -> These elements provide meaning & context to the content.
+    -> Making easy for Search Engines.
+
+    <header>,<footer>,<aside>,<nav>,<article>,<section>,<figure>,<figcaption>,<address>
+
+4. Form Elements
+------------------
+    -> Used to create interactive forms for collecting user input
+
+    <form>,<input>,<label>,<textarea>,<select>,<option>,<button>,<label>,<fieldset>,<legend>,<datalist>
+
+5. Media Elements
+------------------
+    -> Used to embed differnt types of media content.
+
+    <img>,<video>,<audio>,<iframe>,<source>,<canvas>
+
+Inline Elements
+================
+An element which is taking content width as it's own width.
+
+EX :  <span>,<strong>,<em>,<br>,<input>,<label>,<textarea>,<select>,<option>,<img>
+
+Block Level Elements
+======================
+An element which is taking parent's width as it's own width.
+
+EX:  <div>,<p>,<h1>,<h2>,<h3>,,<h4>,<h5>,<h6>,<pre>,<ul>,<ol>,<li>,<table>,<video>,<audio>,<aside>,<article>,<section>
+     <header>,<footer>,<aside>,<nav>,<article>,<section>,<figure>,<figcaption>
